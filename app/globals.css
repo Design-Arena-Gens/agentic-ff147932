@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #fafafa;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--fg);
+  background: radial-gradient(1200px 600px at 80% -10%, rgba(74, 222, 128, 0.15), transparent 60%) no-repeat, #0a0a0a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
